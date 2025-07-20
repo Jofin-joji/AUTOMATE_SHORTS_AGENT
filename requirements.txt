@@ -1,0 +1,4 @@
+moviepy
+elevenlabs
+stable-ts
+torch
