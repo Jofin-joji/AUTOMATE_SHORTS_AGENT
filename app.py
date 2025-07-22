@@ -123,7 +123,7 @@ def main():
     final_video.write_videofile(OUTPUT_VIDEO_FILE, codec='libx264', audio_codec='aac', fps=FPS, logger='bar')
     print("   ✓ Final video and audio combined successfully.")
 
-    # Step 6: Cleanup all temporary files
+    # Step 6: Cleanup  temporary files
     print("🧹 Cleaning up temporary files...")
     if os.path.exists(narration_audio_path): os.remove(narration_audio_path)
     if os.path.exists(TEMP_SILENT_VIDEO_FILE): os.remove(TEMP_SILENT_VIDEO_FILE)
