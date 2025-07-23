@@ -21,7 +21,7 @@ TEMP_SUBTITLED_VIDEO_FILE = "temp_subtitled_video.mp4"
 VIDEO_WIDTH = 1080
 VIDEO_HEIGHT = 1920
 FPS = 24
-VOICE_NAME = "Jessica"  # Make sure this voice is in your ElevenLabs VoiceLab
+VOICE_NAME = "Jessica"
 
 # --- OPENCV FONT CONFIGURATION ---
 FONT = cv2.FONT_HERSHEY_SCRIPT_COMPLEX
