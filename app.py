@@ -14,7 +14,7 @@ INPUT_BACKGROUND_FILE = "background.jpg"
 
 # Final output video
 OUTPUT_VIDEO_FILE = "final_short.mp4"
-# Temporary files that will be created and then deleted
+
 TEMP_SILENT_VIDEO_FILE = "temp_silent_video.mp4"
 TEMP_SUBTITLED_VIDEO_FILE = "temp_subtitled_video.mp4"
 
