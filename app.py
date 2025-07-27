@@ -8,7 +8,7 @@ import stable_whisper as whisper
 
 # --- CONFIGURATION ---
 
-ELEVENLABS_API_KEY = "ELEVEN_LABS_API_KEY" # Replace with your API key
+ELEVENLABS_API_KEY = "ELEVEN_LABS_API_KEY" # Replace with your ELEVEN_LABS API key
 INPUT_TEXT_FILE = "script.txt"
 INPUT_BACKGROUND_FILE = "background.jpg"
 
