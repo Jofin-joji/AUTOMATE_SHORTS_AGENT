@@ -115,7 +115,6 @@ def main():
     # Step 4: Use OpenCV to draw subtitles on the silent video
     draw_subtitles_on_video(TEMP_SILENT_VIDEO_FILE, TEMP_SUBTITLED_VIDEO_FILE, word_timestamps)
 
-    # Step 5: THE FINAL ASSEMBLY 
     print("🔊 Combining final video and audio...")
     subtitled_clip = VideoFileClip(TEMP_SUBTITLED_VIDEO_FILE)
     original_audio = AudioFileClip(narration_audio_path)
